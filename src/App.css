@@ -1,0 +1,290 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #414040;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  /* display: flex; */
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 17px;
+  display: flex;
+  justify-content:space-between;
+  background-color: rgb(32, 32, 32);
+}
+
+/* header nav ul li {
+  margin-right: 20px;
+} */
+
+header nav a {
+  color: #fff;
+  text-decoration:#333
+}
+
+/* .hero {
+  background-image: linear-gradient(to bottom, #333, #555);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  height: 100vh;
+} */
+.outer{
+  /* margin: 20px;
+  padding: 20px; */
+  align-items: center;
+  height: 500px; 
+  width: 400px;
+  background-size : cover;
+  background-color: #fff;
+  margin: 40px;
+  align-items: center;
+  background: #0009;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 2rem;
+  text-align: center;
+  z-index: 1;
+}
+.header ul li {
+  display: inline;
+  /* justify-content: space-between; */
+  /* list-style: none; */
+  justify-content: space-around;
+  list-style: none;
+}
+.inner{
+  background-image: url(raj_photo.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.about h2{
+  height: 400px; 
+  width: 400px;
+  background-size : cover;
+  background-color: #fff;
+  margin: 40px;
+  align-items: center;
+  background: #0009;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 2rem;
+  text-align:justify;
+  z-index: 1;
+}
+/* .about .typed-text {
+  color: #fff;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  display: inline;
+} */
+.about{
+  height: 400px; 
+  width: 400px;
+  background-size : cover;
+  background-color: #fff;
+  margin: 40px;
+  align-items: center;
+  background: #0009;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 2rem;
+  text-align: center;
+  z-index: 1;
+}
+#Experience{
+  background: linear-gradient(135deg, #579dee);
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: rgb(249, 252, 249);
+
+
+  margin: 0px;
+  background-color: #41c3eb;
+  height: 200px; 
+  width: 1400px;
+  background-size : cover;
+  background-color: #7a9bf3;
+}
+#skills{
+  background: linear-gradient(135deg, #818080);
+  background-color: #172224;
+  color: #fff;
+  height: 1350px; 
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+li{
+  list-style-type: none;
+}
+.card-inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.skill-card {
+  background: #115e111a;
+  border-radius: 10px;
+  flex: 0 0 auto;
+  height: 130px;
+  margin: 0 1rem;
+  padding: 1rem;
+  transition: transform .3s ease;
+  width: 100px;
+}
+.card-divider {
+  background: linear-gradient(90deg, #0000, #61dafb, #0000);
+  height: 1px;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+.card-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.auto-scroll {
+  -ms-overflow-style: none;
+  display: flex;
+  margin-top: 30px;
+  overflow-x: scroll;
+  padding: 1rem 0;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  white-space: nowrap;
+}
+.li{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.job-container {
+  flex: 1 1;
+}
+
+
+.education {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+#education .background-image {
+  background: url(https://source.unsplash.com/1600x900?education) no-repeat 50% / cover;
+  filter: brightness(50%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.edu-anim {
+  width: 70%;
+}
+
+.education .degree {
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 110%;
+}
+.card {
+  align-items: center;
+  background: linear-gradient(135deg, #ffffff1a, #fff3);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  padding: 1.5rem;
+  transition: transform .3s ease;
+}
+.img-card {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin-right: 20px;
+  width: 100px;
+}
+.college-logo1 {
+  align-items: center;
+  height: 60px;
+  margin-right: 1rem;
+  padding: auto;
+  width: 90px;
+}
+.education .degree h3 {
+  font-size: 1.5rem;
+}
+
+
+/* CSS */
+.container {
+  color: white;
+  width: 800px;
+  margin: 2px auto;
+  padding: 2px;
+  background-color: #0e0d0d;
+  border: 2px solid #fa7ffa;
+  box-shadow: 0 0 10px rgba(231, 4, 4, 0.1);
+}
+
+.container h2 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #1ce42d;
+  text-align: center;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container li:last-child {
+  border-bottom: none;
+}
+
+.container span {
+  font-weight: bold;
+  color: #168af0;
+}
